@@ -2,7 +2,7 @@
   "personal": {
     "name": "Jose Luis Izquierdo Ruiz",
     "title": "Estudiante DAM",
-    "photo": "/assets/img/FotoEncabezado.png", 
+    "photo": "./assets/img/FotoEncabezado.png", 
     "about": "Apasionado estudiante de grado superior de DAM (desarrollo de aplicaciones multiplataforma) con especializacion en Big Data Analytics y Cloud Architecture AWS. Ganas incansables de aprender y curiosidad innata con gran capacidad resolutiva a la hora de enfrentar diversos problemas.",
     "location": "Marid, España",
     "email": "joluizquierdo.ruiz@gmail.com",
@@ -11,12 +11,12 @@
       {
         "name": "GitHub",
         "url": "https://github.com/seluuu",
-        "icon": "github"
+        "icon": "./assets/img/github-mark.svg"
       },
       {
         "name": "LinkedIn",
         "url": "https://linkedin.com/in/jose-luis-izquierdo-19391b2b8?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app",
-        "icon": "linkedin"
+        "icon": "./assets/img/In-Bug.png"
       }
     ]
   },

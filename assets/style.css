@@ -419,6 +419,16 @@ section {
     font-weight: var(--font-weight-bold);
 }
 
+.social-icon {
+    width: 35px;
+    height: 30px;
+    vertical-align: middle;
+}
+
+.mail-icon {
+    font-size: 30px;
+}
+
 @media print {
     body {
         background-color: #fff !important;

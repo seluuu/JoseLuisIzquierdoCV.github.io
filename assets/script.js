@@ -81,14 +81,14 @@ const dataLoader = (() => {
         try {
             const response = await fetch(DATA_PATH);
             if (!response.ok) {
-                throw new Error(`Error al cargar ${DATA_PATH}: ${response.statusText}`);
+                throw new Error(`Error al cargar`);
             }
             const data = await response.json();
             validateData(data);
             return data;
         } catch (error) {
             console.error("Fallo en la carga o validación de datos:", error);
-            document.body.innerHTML = '<p style="text-align: center; padding: 50px;">Error al cargar el portfolio. Por favor, revisa el archivo data.json.</p>';
+            document.body.innerHTML = '<p style="text-align: center; padding: 50px;">Error al cargar el portfolio.</p>';
             return null;
         }
     };
@@ -99,7 +99,7 @@ const dataLoader = (() => {
      */
     const validateData = (data) => {
         if (!data.personal || !data.skills || !data.experience) {
-            throw new Error("Estructura de data.json incompleta. Faltan secciones clave (personal, skills, experience).");
+            throw new Error("Estructura incompleta.");
         }
     };
 
@@ -135,13 +135,13 @@ const renderer = ((utils) => {
         contactInfo.innerHTML = data.social.map(s => `
             <a href="${s.url}" target="_blank" rel="noopener noreferrer" class="social-link" aria-label="${s.name}">
                 <!-- Icono simulado. En un proyecto real se usaría SVG o una librería de iconos -->
-                <span aria-hidden="true">${s.icon.charAt(0).toUpperCase()}</span> ${s.name}
+                <img src="${s.icon}" class="social-icon" alt="Icono Github" aria-hidden="true"> ${s.name}
             </a>
         `).join('');
 
         contactInfo.innerHTML += `
             <a href="mailto:${data.email}" class="social-link" aria-label="Enviar correo electrónico a ${data.name}">
-                <span aria-hidden="true">✉️</span> Email
+                <span aria-hidden="true" class="mail-icon">✉️</span> Email
             </a>
         `;
 
@@ -275,7 +275,7 @@ const renderer = ((utils) => {
                 <label for="fax">No rellenar:</label>
                 <input type="text" id="fax" name="fax" tabindex="-1" autocomplete="off">
             </div>
-            <button type="submit" class="button">Enviar Mensaje (Simulado)</button>
+            <button type="submit" class="button">Enviar Mensaje</button>
         `;
 
         form.addEventListener('submit', (e) => {
@@ -284,7 +284,7 @@ const renderer = ((utils) => {
             const honeypotField = document.getElementById('fax');
             if (honeypotField.value) {
                 console.warn("Intento de spam detectado (honeypot).");
-                alert("Mensaje enviado (simulación). Gracias por tu interés.");
+                alert("Mensaje enviado. Gracias por tu interés.");
                 form.reset();
                 return;
             }
