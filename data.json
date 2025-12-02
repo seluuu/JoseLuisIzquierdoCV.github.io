@@ -47,8 +47,8 @@
       "title": "Practicas: IT Help Desk",
       "company": "HM Hospitales",
       "location": "Madrid, España",
-      "startDate": "2024, March",
-      "endDate": "2024, Jun",
+      "startDate": "32024-03-01",
+      "endDate": "2024-06-31",
       "description": "Soporte y resolucion de problemas de los equipos informaticos del hospital y explicacion del problema para evitar reincidencia del mismo problema.",
       "tags": ["Sistemas", "Excel", "OFFICE"]
     }
@@ -57,61 +57,61 @@
     {
       "name": "AWS Academy Graduate - Cloud Architecting - Training Badge",
       "issuer": "Amazon Web Services Training and Certification",
-      "date": "2025, Feb",
+      "date": "2025-02-01",
       "url": "https://www.credly.com/earner/earned/badge/76b91d7a-7f09-4e56-ad7e-aa81b523fa14"
     },
     {
       "name": "English for IT",
       "issuer": "Cisco",
-      "date": "2025, Feb",
+      "date": "2025-02-01",
       "url": "https://www.credly.com/earner/earned/badge/823eab4d-7de8-4c6f-bc63-d67a275b29ad"
     },
     {
       "name": "Introduction to Modern AI",
       "issuer": "Cisco",
-      "date": "2025, Feb",
+      "date": "2025-02-01",
       "url": "https://www.credly.com/earner/earned/badge/5e985c88-da56-4c5c-a890-89f1ebdda1b4"
     },
     {
       "name": "Microsoft Office Specialist: Excel Associate (Office 2019)",
       "issuer": "Microsoft",
-      "date": "2022, Dec",
+      "date": "2022,-12-01",
       "url": "https://www.credly.com/earner/earned/badge/6807620a-b4bb-47ea-9440-6de154ef8aed"
     },
     {
       "name": "CyberOps Associate",
       "issuer": "Cisco",
-      "date": "2024, Jun",
+      "date": "2024-06-01",
       "url": "/assets/pdf/CyberOps_Associate_certificate_jose-luis-izquierdo-ruiz.pdf"
     },
     {
       "name": "Networking Basics",
       "issuer": "Cisco",
-      "date": "2025, Feb",
+      "date": "2025-02-01",
       "url": "https://www.credly.com/earner/earned/badge/0d7b7246-6c86-42b1-95b0-058dc38d5eb2"
     },
     {
       "name": "Microsoft Office Specialist: Microsoft Access Expert (Office 2019)",
       "issuer": "Microsoft",
-      "date": "2023, Mar",
+      "date": "2023-03-01",
       "url": "https://www.credly.com/earner/earned/badge/3e22d7b5-75ef-4792-b24d-8fa4cfe485d3"
     },
     {
       "name": "Microsoft Office Specialist: Associate (Office 2019)",
       "issuer": "Microsoft",
-      "date": "2023, Jun",
+      "date": "202306-01",
       "url": "https://www.credly.com/earner/earned/badge/a0cbb76a-386d-4363-b6c0-2be368883548"
     },
     {
       "name": "Microsoft Office Specialist: Word Associate (Office 2019)",
       "issuer": "Microsoft",
-      "date": "2023, Nov",
+      "date": "2023-11-01",
       "url": "https://www.credly.com/earner/earned/badge/af20125f-8656-4373-9a16-429e69ecbb7e"
     },
     {
       "name": "Microsoft Office Specialist: PowerPoint Associate (Office 2019)",
       "issuer": "Microsoft",
-      "date": "2023, Jun",
+      "date": "2023-06-01",
       "url": "https://www.credly.com/earner/earned/badge/6e32c12f-36c6-446b-9d98-eaad101a8fa3"
     }
     
@@ -120,28 +120,28 @@
     {
       "type": "Charla",
       "title": "Gemelos digitales - Accenture Academies Online",
-      "date": "2022, Oct",
+      "date": "2022-10-01",
       "location": "Online",
       "url": null
     },
     {
       "type": "Charla",
       "title": "Seguridad en la nube con IA - Telefonica",
-      "date": "2025, May",
+      "date": "2025-05-01",
       "location": "Espacio Fundación Telefónica",
       "url": null
     },
     {
       "type": "Formacion",
       "title": "Ciberseguridad - INCIBE",
-      "date": "2025, OCT",
+      "date": "2025-10-01",
       "location": "Espacio Fundación Telefónica",
       "url": null
     },
     {
       "type": "Charla",
       "title": "Feria digital - Amazon",
-      "date": "2025, Mar",
+      "date": "2025-03-01",
       "location": "Online",
       "url": null
     }
@@ -150,13 +150,13 @@
     {
       "degree": "Grado Medio - Sistemas Microinformaticos y Redes",
       "institution": "Colegio Joyfe",
-      "startDate": "2022, Sept",
+      "startDate": "2022-09-01",
       "endDate": "2024, Jun"
     },
     {
       "degree": "Grado Superior - Desarrollo de Aplicaciones Multiplataforma con especialidad en Cloud Architecture AWS y Big Data Analytics",
       "institution": "Colegio Joyfe",
-      "startDate": "2024, Sept",
+      "startDate": "2024-09-01",
       "endDate": "2025, Jun"
     }
   ]
