@@ -47,8 +47,8 @@
       "title": "Practicas: IT Help Desk",
       "company": "HM Hospitales",
       "location": "Madrid, España",
-      "startDate": "32024-03-01",
-      "endDate": "2024-06-31",
+      "startDate": "2024-03-01",
+      "endDate": "2024-06-30",
       "description": "Soporte y resolucion de problemas de los equipos informaticos del hospital y explicacion del problema para evitar reincidencia del mismo problema.",
       "tags": ["Sistemas", "Excel", "OFFICE"]
     }
@@ -75,7 +75,7 @@
     {
       "name": "Microsoft Office Specialist: Excel Associate (Office 2019)",
       "issuer": "Microsoft",
-      "date": "2022,-12-01",
+      "date": "2022-12-01",
       "url": "https://www.credly.com/earner/earned/badge/6807620a-b4bb-47ea-9440-6de154ef8aed"
     },
     {
@@ -99,7 +99,7 @@
     {
       "name": "Microsoft Office Specialist: Associate (Office 2019)",
       "issuer": "Microsoft",
-      "date": "202306-01",
+      "date": "2023-06-01",
       "url": "https://www.credly.com/earner/earned/badge/a0cbb76a-386d-4363-b6c0-2be368883548"
     },
     {
@@ -151,13 +151,13 @@
       "degree": "Grado Medio - Sistemas Microinformaticos y Redes",
       "institution": "Colegio Joyfe",
       "startDate": "2022-09-01",
-      "endDate": "2024, Jun"
+      "endDate": "2024-06-30"
     },
     {
       "degree": "Grado Superior - Desarrollo de Aplicaciones Multiplataforma con especialidad en Cloud Architecture AWS y Big Data Analytics",
       "institution": "Colegio Joyfe",
       "startDate": "2024-09-01",
-      "endDate": "2025, Jun"
+      "endDate": "2025-06-30"
     }
   ]
 }
